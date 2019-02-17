@@ -1,0 +1,39 @@
+.left,.right,.up,.down{
+	display: inline-block;
+}
+
+.left,.right{
+	line-height: 80px;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	font-size: 14px;
+	color: #007aff;
+	float: right;
+}
+
+.up{
+	position: absolute;
+	font-size: 18px;
+	color: black;
+	top: 18px;
+	left: 90px;
+}
+
+.down{
+	position: absolute;
+	font-size: 12px;
+	color: #8f8f94;
+	bottom: 10px;
+	left: 90px;
+}
+
+.mui-content .mui-table-view a img {
+	height: 80px;
+	width: 70px;
+	margin-right: 10px;
+}

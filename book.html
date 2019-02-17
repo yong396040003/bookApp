@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>书籍详情</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/book.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">书籍详情</h1>
+			<button type="button" class="add mui-pull-right mui-btn mui-btn-blue mui-btn-outlined">+ 书架</button>
+		</header>
+
+		<div class="mui-content">
+			<!-- 书 -->
+			<div class="book">
+				<div class="bg">
+				</div>
+				<div class="book_left">
+				</div>
+				<div class="book_right">
+				</div>
+			</div>
+			<!-- 简介 目录 -->
+			<div class="catalogue">
+				<div class="mui-segmented-control mui-segmented-control-inverted">
+					<a class="mui-control-item mui-active" href="#item1">详情</a>
+					<a class="mui-control-item" href="#item2">目录</a>
+				</div>
+				<div id="item1" class="mui-control-content mui-active">
+					<div id="scroll1" class="mui-scroll-wrapper">
+						<div class="mui-scroll">
+							<p>作品简介：</p>
+							<p id="content">
+
+							</p>
+							<br>
+							<div class="more">
+								<span>TA的作品</span>
+								<ul class="mui-table-view">
+									<li class="mui-table-view-cell mui-media">
+										<a href="javascript:;">
+											<img class="mui-media-object mui-pull-left" src="https://www.23us.so/files/article/image/0/981/981s.jpg">
+											<div class="mui-media-body">
+												幸福
+												<p class="mui-ellipsis">能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+											</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media">
+										<a href="javascript:;">
+											<img class="mui-media-object mui-pull-left" src="https://www.23us.so/files/article/image/0/981/981s.jpg">
+											<div class="mui-media-body">
+												幸福
+												<p class="mui-ellipsis">能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+											</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media">
+										<a href="javascript:;">
+											<img class="mui-media-object mui-pull-left" src="https://www.23us.so/files/article/image/0/981/981s.jpg">
+											<div class="mui-media-body">
+												幸福
+												<p class="mui-ellipsis">能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+											</div>
+										</a>
+									</li>
+									<li class="mui-table-view-cell mui-media">
+										<a href="javascript:;">
+											<img class="mui-media-object mui-pull-left" src="https://www.23us.so/files/article/image/0/981/981s.jpg">
+											<div class="mui-media-body">
+												幸福
+												<p class="mui-ellipsis">能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="item2" class="mui-control-content">
+					<div class="sort">
+						<span style="line-height: 44px;" class="mui-pull-left">连载中</span>
+						<span class="mui-pull-right">
+							<span class="mui-icon mui-icon-arrowthinup"></span>
+							<span class="mui-icon mui-icon-arrowthindown"></span>
+						</span>
+					</div>
+					<div id="scroll2"  class="mui-scroll-wrapper">
+						<div class="mui-scroll">
+							<ul class="catalogueList mui-table-view">
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- .btn -->
+			<div class="btn">
+				<button type="button" class="mui-btn1 mui-btn-primary">下载本书</button>
+				<button type="button" class="mui-btn2 mui-btn-primary">立即阅读</button>
+			</div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/book.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

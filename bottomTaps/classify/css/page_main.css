@@ -1,0 +1,6 @@
+.tap li {
+	width: 80px;
+	float: left;
+	border: 1px solid red;
+	list-style-type: none;
+}

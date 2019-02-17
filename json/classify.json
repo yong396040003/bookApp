@@ -1,0 +1,44 @@
+{
+	"code": 0,
+	"msg": "mini_classify",
+	"count": 9,
+	"data": [{
+		"title": "玄幻魔法",
+		"img": "https://www.23us.so/files/article/image/20/20856/20856s.jpg",
+		"total": 99999
+	},
+	{
+		"title": "武侠仙侠",
+		"img": "https://www.23us.so/files/article/image/12/12909/12909s.jpg",
+		"total": 99999
+	},{
+		"title": "都市言情",
+		"img": "https://www.23us.so/files/article/image/30/30509/30509s.jpg",
+		"total": 99999
+	},{
+		"title": "历史军事",
+		"img": "https://www.23us.so/files/article/image/34/34752/34752s.jpg",
+		"total": 99999
+	},{
+		"title": "网游竞技",
+		"img": "https://www.23us.so/files/article/image/28/28262/28262s.jpg",
+		"total": 99999
+	},{
+		"title": "科幻小说",
+		"img": "https://www.23us.so/files/article/image/34/34173/34173s.jpg",
+		"total": 99999
+	},{
+		"title": "恐怖灵异",
+		"img": "https://www.23us.so/files/article/image/0/939/939s.jpg",
+		"total": 99999
+	},{
+		"title": "女生小说",
+		"img": "https://www.23us.so/files/article/image/30/30096/30096s.jpg",
+		"total": 99999
+	},
+	{
+		"title": "其他小说",
+		"img": "https://www.23us.so/files/article/image/14/14229/14229s.jpg",
+		"total": 99999
+	}]
+}
